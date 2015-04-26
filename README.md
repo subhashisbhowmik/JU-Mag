@@ -9,7 +9,7 @@ The people under the project are listed bellow-
 3. Saptarshi Pal (Idea Sponsor, Programmer, Designer)
 4. Souradeep Barua (Marketing Advisor, Idea Sponsor, Programmer)
 5. Sayan nag (Android UI Designer, Programmer)
-6. Supratik Sarkar (Idea Sponsor, Marketing Adisor)
+6. Supratik Sarkar (Idea Sponsor, Marketing Advisor)
 7. Arijit Pramanik (Photography and related, Programmer)
 8. Vineet Kumar (Contact Finder)
 
