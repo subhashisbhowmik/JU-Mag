@@ -12,5 +12,6 @@
     1. Topic writers( topicwriters_<topic_id> ): user_id, timestamp.
     2. Topic followers (Topicfollowers_<topic_id> ): user_id, timestamp.
     3. Topic votes (Topicvotes_<topic_id> ): user_id, whether up/downvote. 
+3. Badge List ( badges ): badge names, ids, points for gaining.
 
 
