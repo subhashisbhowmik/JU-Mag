@@ -1,0 +1,16 @@
+##The Server side databases are to be arranged as follows##
+
+1. User Details(Name in the form "fundamental"): Contains user_id, timestamp Username, Password, Name details, DOB, Gender, public stats, Other personal infos. (One Fundamental Table).
+    1. User unique Table(Name in the form "user_posts<user_id>"): post list- post_id, post details, timestamp, number of comments, upvotes, downvotes.
+        1. Post unique Table(in the form "post_<post_id>"): Comment_id( in the form <post id>_<random/AI id>), timestamp, commenter user_id, no. of upvotes and downvotes.
+            1. Comment Unique Tables ( comment_<comment_id> ): user_id of user up/downvoting, whether upvoted or downvoted.
+        2. Post Unique table for badges ( post_badges_<post_id> ): Badge , badge_id
+    2. User unique Table for followers(Name in the form "user_followers<user_id>"): Follower's user id, follow timestamp.
+    3. User unique table for Cookies and sessions( sessions_<user_id> ): Session/Cookie id, timestamp, expiry time.
+    4. User unique table for badges ( user_badges_<user_id> ): Badge Name, badge_id
+2. Topic Details("topic"): Topic name, Topic id, Parant Topic id,Parent topic name.
+    1. Topic writers( topicwriters_<topic_id> ): user_id, timestamp.
+    2. Topic followers (Topicfollowers_<topic_id> ): user_id, timestamp.
+    3. Topic votes (Topicvotes_<topic_id> ): user_id, whether up/downvote. 
+
+
